@@ -10,6 +10,8 @@ import LoadingIcon from '@/components/loading-icon'
 import Loading from '@/components/loading'
 import Modal from '@/components/modal'
 
+import GithubIcon from '@/icons/github'
+
 export {
   Button,
   Footer,
@@ -21,4 +23,5 @@ export {
   LoadingIcon,
   Loading,
   Modal,
+  GithubIcon,
 }
