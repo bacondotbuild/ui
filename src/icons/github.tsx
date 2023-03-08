@@ -1,7 +1,7 @@
 import React from 'react'
 
 // https://lucide.dev/icon/github
-export default function GithubIcon({ className }: { className: string }) {
+export default function GithubIcon({ className }: { className?: string }) {
   return (
     <svg
       className={className}
