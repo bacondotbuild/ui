@@ -1,5 +1,6 @@
 import React from 'react'
 
+// stolen from: https://tailwindcss.com/docs/animation#spin
 export default function LoadingIcon({ className }: { className: string }) {
   return (
     <svg
