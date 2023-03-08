@@ -10,6 +10,9 @@ initial commit [failed](https://github.com/bacondotbuild/ui/actions/runs/4299469
 
 ## todo
 
-- TODO: add toast/notification
-- TODO: side nav menu
-- TODO: command palette
+- components
+  - toast/notification
+  - side nav menu
+  - command palette
+- icons
+  - move loading-icon to new icon folder
