@@ -24,7 +24,7 @@ export function FooterListItem({
     <li className='flex-grow'>
       {onClick ? (
         <button
-          className='flex w-full justify-center py-2'
+          className='flex w-full justify-center py-2 disabled:pointer-events-none disabled:opacity-25'
           type='button'
           onClick={onClick}
           disabled={disabled ?? false}
