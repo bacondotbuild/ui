@@ -13,9 +13,11 @@ export default function Footer({ children }: { children?: React.ReactNode }) {
 
 export function FooterListItem({
   onClick,
+  disabled,
   children,
 }: {
   onClick?: MouseEventHandler<HTMLButtonElement>
+  disabled?: boolean
   children?: React.ReactNode
 }) {
   return (
@@ -25,6 +27,7 @@ export function FooterListItem({
           className='flex w-full justify-center py-2'
           type='button'
           onClick={onClick}
+          disabled={disabled ?? false}
         >
           {children}
         </button>
